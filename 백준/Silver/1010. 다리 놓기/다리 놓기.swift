@@ -26,9 +26,9 @@ func combination(_ n: Int,_ r: Int) -> Int{
         return 1
     }
     
-    if n == 1{
-        return r
-    }
+//    if n == 1{
+//        return r
+//    }
     
     if result[n][r] != 0 {
         return result[n][r]
